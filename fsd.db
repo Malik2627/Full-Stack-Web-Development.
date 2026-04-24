@@ -1,0 +1,16 @@
+show databases;
+create database JNMA;
+use JNMA;
+create table student (
+stu_id INT,
+name Varchar(30),
+age INT,
+gender varchar(30),
+email varchar(100),
+course varchar(100),
+admission_date DATE );
+select * from student;
+insert into student(stu_id, name, age, gender, email, course, admission_date)
+values
+(1, "ragul", 22, "male", "ragul@gmail.com", "bsc aiml", "2024-07-01");
+ 
